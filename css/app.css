@@ -1,6 +1,17 @@
+
+ul {
+    list-style-type: none;
+  }
+
+
+
+
 .container img {
     width: 100%;
 }
+
+
+
 
 .container{
    
@@ -10,6 +21,8 @@
     position: relative;
     
 }
+
+
 
 .mk_display_n {
     display: none;

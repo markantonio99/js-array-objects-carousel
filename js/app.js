@@ -1,5 +1,5 @@
 
-const carouselEl = document.getElementsByClassName('carousel')
+const carouselEl = document.querySelector('.carousel')
 // console.log(carouselEl)
 
 const btnRightEl = document.getElementById('btn_r')
@@ -33,7 +33,7 @@ let carouselCard = [
         title: 'Ratchet & Clank: Rift Apart',
         text: 'Go dimension-hopping with Ratchet and Clank as they take on an evil emperor from another reality.',
     }, {
-        image: './immagini/imm 3.png',
+        image: './immagini/imm3.png',
         title: 'Fortnite',
         text: "Grab all of your friends and drop into Epic Games Fortnite, a massive 100 - player face - off that combines looting, crafting, shootouts and chaos.",
     }, {
@@ -62,7 +62,7 @@ for (let key in carouselCard){
 for (let i = 0; i < carouselCard.length; i++){
    
     const carouseApp = carouselCard[i]
-    console.log(carouseApp)
+    // console.log(carouseApp)
 
 
     const imagine = carouseApp.image
@@ -71,6 +71,10 @@ for (let i = 0; i < carouselCard.length; i++){
 
    
 console.log(imagine, titolo, testo)
+
+
+carouselEl.innerHTML += (` <ul> <li class="mk_display_active mk_display_n "> <img src= ${imagine}> </li>  <li> ${titolo} </li> <li> ${testo}</li>  </ul>`)
+
 
 }
 
