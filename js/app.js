@@ -21,7 +21,7 @@ let functionActiv = 0
 const images = [
     {
         image: './immagini/imm1.png',
-        title: 'Marvel\\'s Spiderman Miles Morale',
+        title: 'Marvel\\s Spiderman Miles Morale',
         text: 'Experience the rise of Miles Morales as the new hero masters incredible, explosive new powers to become his own Spider-Man.',
     }, {
         image: './immagini/imm2.png',
@@ -38,12 +38,12 @@ const images = [
     }, {
         image: './immagini/imm5.png',
         title: "Marvel's Avengers",
-        text: 'Marvel\\'s Avengers is an epic, third-person, action-adventure game that combines an original, cinematic story with single-player and co-operative gameplay.',
-    }.
+        text: 'Marvel\\ s Avengers is an epic, third-person, action-adventure game that combines an original, cinematic story with single-player and co-operative gameplay.',
+    },
     {
         image: './immagini/imm6.png',
         title: "Marvel's Avengers",
-        text: 'Marvel\\'s Avengers is an epic, third-person, action-adventure game that combines an original, cinematic story with single-player and co-operative gameplay.',
+        text: 'Marvel\\ Avengers is an epic, third-person, action-adventure game that combines an original, cinematic story with single-player and co-operative gameplay.',
     }
 ];
 
