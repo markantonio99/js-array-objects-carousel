@@ -1,0 +1,39 @@
+.container img {
+    width: 100%;
+}
+
+.container{
+   
+}
+
+.carousel {
+    position: relative;
+    
+}
+
+.mk_display_n {
+    display: none;
+}
+
+.mk_display_active {
+    display: block;
+}
+
+
+
+.mk_arrow {
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    transform: translateY(50%);
+}
+
+.arrow-right {
+    top: 50%;
+    right: 5%;
+}
+
+.arrow-left {
+    top: 50%;
+    left: 5%;
+}
